@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+}
+
+.card {
+  margin: 0 auto;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 50px;
+  height: 90%;
+  margin-top: 30px;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.user-location {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.user-occupation {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin-top: 10px;
+}
